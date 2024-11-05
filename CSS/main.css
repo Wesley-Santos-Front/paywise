@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: table;
+}
+@media screen and (min-width: 500px) {
+    .sec1 {
+        display: table;
+        width: 100%;
+    }
+    .pag1 {
+        display: block;
+        width: 100%;
+        height: 100vh;
+        background-color: #309975;
+    }
+    
+    .escopo1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        align-items: center;
+        float: left;
+        width: 1129px;
+        height: 44px;
+        margin-left: 0;
+        margin-right: 0;
+        margin: 15px auto;
+
+    }
+    .hiperlinks {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        justify-items: center;
+        align-items: center;
+        width: 400px;
+        background-color: transparent;
+    }
+    .hiperlinks a {
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        color: white;
+        text-decoration: none;
+        font-weight: 200;
+        
+    }
+    .hiperlinks a:hover {
+        border-bottom: 2px solid #DAD873;
+    }
+    
+    .buttons button {
+        width: 140px;
+        height: 44px;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        color: white;
+        font-weight: normal;
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+    }
+    .buttons button:last-child {
+        background-color: #DAD873;
+        border-radius: 5px;
+        color: #309975;
+
+    }
+
+    
+}

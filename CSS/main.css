@@ -9,29 +9,25 @@
     height: table;
 }
 @media screen and (min-width: 500px) {
-    .sec1 {
-        display: table;
-        width: 100%;
-    }
     .pag1 {
         display: block;
         width: 100%;
         height: 100vh;
-        background-color: #309975;
+        background-image: linear-gradient(to right, #309975, #58B368);
+        z-index: 1000;
     }
     
     .escopo1 {
+        width: 1129px;
+        height: 44px;
+        margin: 15px 114px 15px;
+        text-align: center;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content:space-between;
         align-items: center;
         float: left;
-        width: 1129px;
-        height: 44px;
-        margin-left: 0;
-        margin-right: 0;
-        margin: 15px auto;
 
     }
     .hiperlinks {
@@ -67,12 +63,111 @@
         background-color: transparent;
         border: none;
     }
+    .buttons button:hover {
+        color: #DAD873;
+    }
     .buttons button:last-child {
         background-color: #DAD873;
         border-radius: 5px;
         color: #309975;
+        box-shadow: 2px 1px 1px rgb(87, 86, 86);
+
 
     }
+    .buttons button:last-child:hover {
+        background-color: #c0bf6e;
+        color: white;
+    }
+    .main1 {
+        display: inline-block;
+        width: 1129px;
+        height: table;
+
+        
+    }
+    .Title {
+        display: block;
+        width: 401px;
+        margin-left: 114px;
+        margin-top: 61px;
+    }
+    .Title h1 {
+        font-family: "Poppins", sans-serif;
+        font-size: 60px;
+        font-weight: bold;
+        color: white;
+
+    }
+    .Title h1:last-child{
+        margin-top: -5%;
+        border-bottom: 2px solid white;
+    }
+    .oport{
+        width: 431px;
+        margin-left: 114px;
+        height: table;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+
+
+    }
+    .text1{ 
+        display: block;
+
+    }
+    .text1 h2 {
+        margin-top: 27px;
+        font-family: "Poppins", sans-serif;
+        font-size: 40px;
+        color: white;
+
+    }
+    .images1 {
+        margin-top: -478px;
+        margin-left: 333px;
+        z-index: -100;
+        
+    }
+
+    /*Classes Reutilizaveis*/
+
+    /*Fontes*/
+    .font-poppins {
+        font-family: "Poppins", sans-serif;
+    }
+
+    /*Cor Fontes*/
+    .color-white {
+        color: white;
+    }
+
+    /* tamanho fontes*/
+    .large-60 {
+        font-size: 50px;
+    }
+    .medium-40 {
+        font-size: 30px;
+    }
+    .low-15 {
+        font-size: 13px;
+    }
+
+    /*Bold*/
+    .bold {
+        font-weight: bold;
+    }
+
+    /*Margins*/
+    .margin-top-30{
+        margin-top: 70px;
+    }
+    .margin-left-128 {
+        margin-left: 114px;
+    }
+
 
     
 }

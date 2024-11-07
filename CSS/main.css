@@ -166,15 +166,50 @@
     }
     .card1 {
         display: inline-block;
+        height: 500px;
+        width: 450px;
+        border-radius: 10px;
+        box-shadow: 5px 2px 2px #575757;
 
     }
     .title2 {
-        width: 130px;
-        height: 40px;
+        margin-top: 10px;
+        margin-left: 50px;
+        width: 110px;
+        height: table;
+        padding: 15px;
         background-color: #DAD873;
         border-radius: 10px;
 
-
+    }
+    .title3 {
+        margin-left: 50px;
+    }
+    .title3 h1:first-child{
+        margin-top: 30px;
+    }
+    .title3 h1:last-child{
+        margin-bottom: 30px;
+    }
+    .parag3 {
+        margin-left: 50px;
+    }
+    .parag3 p {
+        border: 8px 0;
+    }
+    .button-card1 button{
+        margin-left: 50px;
+        margin-top: 30px;
+        background-color: #F8BF88;
+        color: #575757;
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+        border-radius: 5px;
+        border: none;
+        padding: 15px 45px;
+        cursor: pointer;
+        font-weight: 600;
+        box-shadow: 2px 1px 1px #575757;
     }
 
     /*Classes Reutilizaveis*/
@@ -191,6 +226,9 @@
     .color-green {
         color: #309975;
     }
+    .color-marron {
+        color: #DAD873;
+    }
 
     /* tamanho fontes*/
     .large-60 {
@@ -200,7 +238,7 @@
         font-size: 30px;
     }
     .low-15 {
-        font-size: 13px;
+        font-size: 14px;
         top: 0;
         bottom: 0;
         margin: auto 0;
@@ -227,6 +265,9 @@
     }
     .margin-left-128 {
         margin-left: 114px;
+    }
+    .margin-5 {
+        margin: 10px;
     }
 
 

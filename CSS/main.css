@@ -148,7 +148,7 @@
     .pag2 {
         display: inline-block;
         width: 100%;
-        height: 100vh;
+        height: 1000px;
         background-color: white;
         z-index: 1000;
 
@@ -157,8 +157,9 @@
         display: block;
     }
     .cards {
-        width: 800px;
-        height: 500px;
+        margin: 50px auto;
+        width: 1100px;
+        height: 550px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -166,10 +167,11 @@
     }
     .card1 {
         display: inline-block;
-        height: 500px;
-        width: 450px;
+        height: 730px;
+        width: 480px;
         border-radius: 10px;
         box-shadow: 5px 2px 2px #575757;
+        background-color:rgb(247, 244, 244);
 
     }
     .title2 {
@@ -211,6 +213,31 @@
         font-weight: 600;
         box-shadow: 2px 1px 1px #575757;
     }
+    .button-card1 button:hover {
+        color: white;
+        background-color: #e0a064;
+    }
+    .cartao {
+        display: block;
+        margin-top: 90px;
+        margin-left: 50px;
+        width: 292px;
+        height: 155px;
+        border-radius: 15px;
+        background-image: linear-gradient(to bottom, #DAD873, #FFCA63);
+    }
+    .visa {
+        padding: 15px 0 0 0;
+        margin-left: 25px;
+    }
+    .visa1 {
+        margin-top: 40px;
+        margin-left: 25px;
+    }
+
+
+
+
 
     /*Classes Reutilizaveis*/
 
@@ -229,6 +256,12 @@
     .color-marron {
         color: #DAD873;
     }
+    .color-green-dark {
+        color: #20656F;
+    }
+    .color-bege {
+        color: #F8BF88;
+    }
 
     /* tamanho fontes*/
     .large-60 {
@@ -236,6 +269,9 @@
     }
     .medium-40 {
         font-size: 30px;
+    }
+    .medium-18 {
+        font-size: 18px;
     }
     .low-15 {
         font-size: 14px;
@@ -268,6 +304,14 @@
     }
     .margin-5 {
         margin: 10px;
+    }
+
+    /*background color*/
+    .bg-pinc {
+        background-color: #FFCDC2;
+    }
+    .bg-pinc-linear {
+        background-image: linear-gradient(to bottom, #FFCDC2, #F88888);
     }
 
 
